@@ -34,3 +34,19 @@ int main(){
 	tikusbetina.ukuranBadan("sadang tak bertaji");
 	tikusbetina.jumlahAnak(15);
 	cout <<"_______________________________\n\n";
+	
+		cout <<"Ciri-ciri kucing jantan: \n\n";
+	cout <<(kucingjantan.lari);
+	kucingjantan.suara("meong");
+	kucingjantan.makan("ikanasin+nasi ");
+	kucingjantan.ukuranBadan("besar dan kuat");
+	kucingjantan.jumlahAnak(0);
+	cout <<"_______________________________\n\n";
+	
+	cout <<"Ciri-ciri kucing betina: \n\n";
+	cout <<(kucingbetina.lari);
+	kucingbetina.suara("miungggg");
+	kucingbetina.makan("wiscattt ");
+	kucingbetina.ukuranBadan("sedang");
+	kucingbetina.jumlahAnak(10);
+	cout <<"_______________________________\n\n";
