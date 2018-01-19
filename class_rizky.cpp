@@ -50,3 +50,34 @@ int main(){
 	kucingbetina.ukuranBadan("sedang");
 	kucingbetina.jumlahAnak(10);
 	cout <<"_______________________________\n\n";
+	
+		cout <<"Ciri-ciri kucing jantan: \n\n";
+	cout <<(kucingjantan.lari);
+	kucingjantan.suara("meong");
+	kucingjantan.makan("ikanasin+nasi ");
+	kucingjantan.ukuranBadan("besar dan kuat");
+	kucingjantan.jumlahAnak(0);
+	cout <<"_______________________________\n\n";
+	
+	cout <<"Ciri-ciri kucing betina: \n\n";
+	cout <<(kucingbetina.lari);
+	kucingbetina.suara("miungggg");
+	kucingbetina.makan("wiscattt ");
+	kucingbetina.ukuranBadan("sedang");
+	kucingbetina.jumlahAnak(10);
+	cout <<"_______________________________\n\n";
+	
+
+}
+void hewan::suara(string bunyi){
+	cout <<"\nbunyinya "<<bunyi<<endl;
+}
+int hewan::makan(string makanan){
+	cout <<"makan: "<<makanan<<endl;
+}
+void hewan::ukuranBadan(string ukuran){
+	cout <<"Badannya: "<<ukuran<<endl;
+}
+void hewan::jumlahAnak(int jumlah){
+	cout <<"Anakanya "<<jumlah<<" ekor"<<endl;
+}
