@@ -9,3 +9,6 @@ class hewan {
 		string lari;
 		void ukuranBadan(string ukuran);
 		void jumlahAnak(int jumlah);
+		};
+int main(){
+	hewan tikusjantan,tikusbetina,hamsterjantan,hamsterbetina,kucingjantan,kucingbetina;
